@@ -1,4 +1,12 @@
-h1 {
+body {
+  font-family: Verdana;
+}
+
+article {
+  width: 800px;
+}
+
+article header h1 {
   color: green;
 }
 
@@ -14,13 +22,5 @@ article figure {
 }
 
 article figure img {
-  width: 100%; 
-}
-
-article {
-  width: 800px;
-}
-
-body {
-  font-family: Verdana;
+  width: 100%;
 }
