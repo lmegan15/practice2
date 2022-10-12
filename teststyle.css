@@ -6,21 +6,30 @@ article {
   width: 800px;
 }
 
-article header h1 {
+h1 {
   color: green;
 }
 
-article header p {
+header p {
   background-color: red;
   color: white;
 }
 
-article figure {
+figure {
   width: 600px;
+  height: auto;
   border: 3px solid black;
   padding: 5px;
 }
 
-article figure img {
+figure img {
   width: 100%;
+  height: auto;
+}
+
+p img {
+  float: right;
+  max-width: 60%;
+  margin-left: 20px;
+  margin-bottom: 32px;
 }
