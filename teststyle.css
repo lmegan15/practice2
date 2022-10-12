@@ -1,19 +1,23 @@
 body {
   font-family: Verdana;
+  border: 1px solid black;
 }
 
 article {
   width: 800px;
+  border: 1px solid black;
 }
 
 h1 {
   color: green;
   text-align: center;
+  border: 1px solid black;
 }
 
 header p {
   background-color: red;
   color: white;
+  border: 1px solid black;
 }
 
 figure {
@@ -33,4 +37,5 @@ p img {
   max-width: 60%;
   margin-left: 20px;
   margin-bottom: 32px;
+  border: 1px solid black;
 }
